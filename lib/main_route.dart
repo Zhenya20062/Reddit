@@ -52,7 +52,7 @@ class _RedditMainState extends State<RedditMain> {
             context,
             MaterialPageRoute(
                 builder: (context) => DetailRoute(
-                      id: data.id,
+                      data: data,
                     )));
       },
       child: Card(
